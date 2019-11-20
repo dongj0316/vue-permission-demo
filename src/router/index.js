@@ -199,7 +199,7 @@ export const permissionRoutes = [
 export const permissionRoutesCopy = JSON.parse(JSON.stringify(permissionRoutes))
 
 const router = new VueRouter({
-  mode: 'history',
+  mode: 'hash',
   base: process.env.BASE_URL,
   routes
 })
