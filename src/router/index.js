@@ -31,6 +31,7 @@ export const permissionRoutes = [
     visible: false,
     path: '/',
     name: 'basic',
+    redirect: '/index',
     meta: {
       title: '通用页面'
     },
